@@ -1,0 +1,50 @@
+/* 2 columns styles */
+
+@media (min-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+
+    .wrapper {
+        padding: 25px;
+    }
+
+    .sidebar-left {
+        float: left;
+        width: 40%;
+    }
+
+    .sidebar-left h2 {
+        padding: 0 0 10px 10px;
+        font-size: 2.6rem;
+    }
+
+    .sidebar-right {
+        float: right;
+        width: calc(60% - 25px);
+        margin-left: 25px;
+    }
+
+    .sidebar-right:nth-of-type(2) {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    html {
+        font-size: 12px;
+    }
+
+    .sidebar-left {
+        width: 30%;
+    }
+
+    .sidebar-left h2 {
+        padding: 0 0 20px 30px;
+        font-size: 3rem;
+    }
+
+    .sidebar-right {
+        width: calc(70% - 25px);
+    }
+}
