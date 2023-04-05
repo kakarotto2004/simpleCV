@@ -221,7 +221,7 @@ i {
 }
 
 .eng-bar::after {
-    content: "B1/B2";
+    content: "B2";
     width: 75%;
 }
 
