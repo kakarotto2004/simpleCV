@@ -67,6 +67,10 @@ p {
     list-style-type: none;
 }
 
+ul>li {
+    color: #6d6d6d;
+}
+
 /* ********************* FONTAWSOME icons style  ********************* */
 i {
     font-size: 1.8rem;
@@ -265,19 +269,17 @@ i {
     padding: 25px 25px;
 }
 
-/* ********************* WORKS nad SCHOOLS styles ********************* */
+/* ********************* WORKS, SCHOOLS and CERTYFICATES styles ********************* */
 .works,
-.schools {
+.schools,
+.certyficates {
     padding: 0 10px;
     margin-top: 25px;
 }
 
-.work-place-txt {
-    margin-top: 5px;
-    font-size: 1.6rem;
-}
-
-.school-place-txt {
+.work-place-txt,
+.school-place-txt,
+.certyficate-place-txt {
     margin-top: 5px;
     font-size: 1.6rem;
 }
@@ -298,6 +300,14 @@ i {
 
 .calendar-txt i {
     margin-right: 10px;
+}
+
+.certyficates ul>li {
+    margin-left: 17px;
+}
+
+ul>li::marker {
+    font-size: 1.4rem;
 }
 
 
