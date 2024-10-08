@@ -319,3 +319,29 @@ footer {
     text-align: center;
     color: white;
 }
+
+
+/* ********************* LANGUAGE styles ********************* */
+.lang-switch {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    display: flex;
+    /* width: 60px; */
+    /* justify-content: space-evenly; */
+
+    z-index: 10;
+}
+
+.lang-switch a {
+    padding: 3px 8px;
+    background-color: rgba(57, 158, 99, 0.8);
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.lang-switch a:last-of-type {
+    background-color: rgba(57, 158, 99, 1);
+}
