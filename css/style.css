@@ -46,6 +46,10 @@ p {
     clear: both;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .vertical-solid-line {
     display: block;
     width: 100%;
@@ -69,6 +73,14 @@ p {
 
 ul>li {
     color: #6d6d6d;
+    font-size: 1.4rem;
+    margin-left: 17px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ul>li::marker {
+    font-size: 1.4rem;
 }
 
 /* ********************* FONTAWSOME icons style  ********************* */
@@ -129,6 +141,10 @@ i {
 
 .personal-data-box p {
     margin-top: 10px;
+}
+
+.personal-data-box a {
+    text-decoration: none;
 }
 
 /* ====================  600px  ===================== */
@@ -302,13 +318,6 @@ i {
     margin-right: 10px;
 }
 
-.certyficates ul>li {
-    margin-left: 17px;
-}
-
-ul>li::marker {
-    font-size: 1.4rem;
-}
 
 
 /* ********************* FOOTER styles ********************* */
