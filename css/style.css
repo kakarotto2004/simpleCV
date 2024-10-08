@@ -204,7 +204,7 @@ i {
 
 .skill p,
 .language p {
-    margin: 10px 0;
+    margin: 10px 0 5px;
 }
 
 .lvl-bar {
@@ -212,6 +212,34 @@ i {
     height: 20px;
     background-color: rgb(190, 186, 186);
     border-radius: 30px;
+}
+
+.skill-dots span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: 0;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: rgb(190, 186, 186);
+}
+
+.skill-dots span.active {
+    background-color: rgb(57, 158, 99);
+}
+
+.flex-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill-other {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 20px;
+    align-content: center;
+
+    padding: 0 20px;
 }
 
 /* ********************* filling each bar ::after *********************  */
