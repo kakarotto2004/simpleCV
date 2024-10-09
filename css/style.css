@@ -125,6 +125,7 @@ i {
     padding: 0 0 20px 20px;
     letter-spacing: 1px;
     font-weight: 400;
+    text-shadow: 0 0 8px black;
 }
 
 .sidebar-left-content {
@@ -182,7 +183,7 @@ i {
     border-radius: 30px;
     line-height: 20px;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: white;
     text-transform: uppercase;
 }
@@ -283,12 +284,12 @@ i {
 /* ====================  600px  ===================== */
 @media (min-width: 600px) {
     .lvl-bar {
-        height: 30px;
+        height: 20px;
     }
 
     .lvl-bar::after {
-        height: 30px;
-        line-height: 30px;
+        height: 20px;
+        line-height: 20px;
     }
 }
 
