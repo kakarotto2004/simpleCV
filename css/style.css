@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap');
 
 /* ROBOTO font */
 /* {
@@ -58,8 +58,8 @@ p {
 }
 
 .bold-span {
-    font-weight: 700;
-    font-size: 1.8rem;
+    font-weight: 500;
+    font-size: 1.6rem;
 }
 
 .cursive-txt {
@@ -246,7 +246,7 @@ i {
 }
 
 /* ********************* filling each bar ::after *********************  */
-.htmlcss-bar::after {
+/* .htmlcss-bar::after {
     content: "70%";
     width: 70%;
 }
@@ -264,7 +264,7 @@ i {
 .mysql-bar::after {
     content: "30%";
     width: 30%;
-}
+} */
 
 .pl-bar::after {
     content: "native";
@@ -324,11 +324,16 @@ i {
     margin-top: 25px;
 }
 
-.work-place-txt,
 .school-place-txt,
 .certyficate-place-txt {
-    margin-top: 5px;
     font-size: 1.6rem;
+    margin-top: 5px;
+}
+
+.work-place-txt {
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 5px;
 }
 
 .calendar-txt {
